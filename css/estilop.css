@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #070e11;
+    color: #228de5;
+   text-align: center;
+}
+.hero{
+    width: 100%;
+    height: 10vh;  
+    position: relative;
+    display: grid;
+    grid-template-rows: 100px 1fr;  
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+   
+}
+
+.header h1 .seo {
+    color: #3db7e8;
+}
+
+.nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    color: #4388d6;
+    text-decoration: none;
+}
+
+.background1 {
+    height: 450px;
+    width: 100%;
+    margin-bottom: 30px;
+    background-image: url("../images/fotoperfil.jpg");
+    background-size: contain;
+    background-position: center;
+}
+.float__right{
+    max-width: 500px;
+}
+    
+.img{
+    width: 100%;
+    display: block;
+    
+}
+.nombre__title{
+    text-align: center;
+}
+
+
+.content article {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #25aaec;
+    color: #0e0101;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+.content{
+    display: flex;
+}
+
+.content img {
+    max-height: 200px;
+}
+.content h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+.content p {
+    font-size: 16px;
+}
+@media (max-widht:800px){
+    .hero__title2{
+        font-size: 2.5rem;
+    }
+    .img{
+        grid-row: 1/2;
+        justify-self: center;
+    }
+    .content{
+        gap: 2em;
+
+    }
+    .content:last-of-type{
+        grid-column: 1/-1;
+    }
+    
+}
+@media (max-widht:600px) {
+
+    .menu__container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       justify-content: center;
+       height: 100vh;
+        
+    }
+    .content{
+        margin: 0;
+        display: flex;
+    }
+
+}
