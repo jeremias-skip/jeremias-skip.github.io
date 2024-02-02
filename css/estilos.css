@@ -188,7 +188,7 @@ body{
 .price__element--best1{
     width: 370px;
     padding: 60px 40px;
-    background-color: #ffd643;
+    background-color: #121010;
     --color-plan: rgba(255 255 255 / 75%);
     --color-price:#fff;
     --bg-cta:#e6c211;
@@ -196,7 +196,7 @@ body{
     --color-item:#fff;
 }
 .price__element--best2{
-    background-color: #ff7143;
+    background-color: #121010;
     --color-plan: rgba(255 255 255 / 75%);
     --color-price:#fff;
     --bg-cta:#e47513;
@@ -206,9 +206,9 @@ body{
 .price__element--best3{
     width: 370px;
     padding: 60px 40px;
-    background-color: #ea501c;
+    background-color: #121010;
     --color-plan: rgba(255 255 255 / 75%);
-    --color-price:#1D293F;
+    --color-price:#dde2ec;
     --bg-cta:#e1450c;
     --color-cta:#fff;
     --color-item:#fff;
@@ -301,12 +301,13 @@ body{
     border: 1px solid #5454D4;
     border-radius: 6px;
 }
+
 .questions__padding--add{
     padding-bottom: 30px;
 }
 .questions__answer{
     padding: 0 30px 0;
-    overflow: hidden;
+    overflow: Hidden;
 }
 .questions__title{
     text-align: left;
